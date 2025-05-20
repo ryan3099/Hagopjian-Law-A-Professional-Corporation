@@ -3,99 +3,143 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hagopjian Law, A Professional Corporation</title>
+  <title>Hagopjian Law Corporation</title>
   <style>
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #111;
-      color: #e0e0e0;
+      background: #f8f9fa;
+      color: #222;
     }
     header {
-      background-color: #1c1c1c;
-      padding: 60px 20px;
+      background: url('https://images.unsplash.com/photo-1630265927428-a62b061a5270?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0') no-repeat center center/cover;
+      color: white;
       text-align: center;
+      padding: 100px 20px;
     }
     header h1 {
-      font-size: 2.5rem;
-      color: #d0d0d0;
-      margin: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 16px 40px;
+      font-size: 36px;
+      border-radius: 8px;
     }
-    .section {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: auto;
+    nav {
+      background-color: #003366;
+      text-align: center;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 999;
     }
-    .section h2 {
-      color: #ccc;
-      border-bottom: 1px solid #444;
-      padding-bottom: 10px;
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    section:nth-child(even) {
+      background-color: #eef1f5;
+    }
+    h2 {
+      color: #003366;
       margin-bottom: 20px;
     }
-    .info p {
-      margin: 8px 0;
-      color: #bbb;
-    }
     .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 20px;
     }
     .gallery img {
-      width: 100%;
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
       border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .contact-box {
+      background-color: white;
+      padding: 30px;
+      display: inline-block;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     footer {
-      background-color: #1c1c1c;
-      color: #999;
+      background-color: #002244;
+      color: white;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      border-top: 1px solid #333;
+      padding: 25px;
+      font-size: 14px;
+    }
+    a {
+      color: #0077cc;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Hagopjian Law, A Professional Corporation</h1>
-  </header>
+<header>
+  <h1>Hagopjian Law Corporation</h1>
+  <p>Legal Integrity. Professional Representation. Sherman Oaks, CA</p>
+</header>
 
-  <section class="section info">
-    <h2>Company Information</h2>
-    <p><strong>Status:</strong> Active</p>
-    <p><strong>Incorporation Date:</strong> 30 April 2025</p>
-    <p><strong>Company Type:</strong> CA Professional Corporation</p>
-    <p><strong>Jurisdiction:</strong> California, US</p>
-    <p><strong>Registered Address:</strong> 4630 VAN NUYS BLVD, SHERMAN OAKS, CA 91403</p>
-    <p><strong>Agent Name:</strong> Kyfork Aghobjian</p>
-    <p><strong>Phone:</strong> 442-440-9981</p>
-    <p><strong>Email:</strong> aghobjian@lawprofecorporation.in.net</p>
-  </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#practice">Practice Areas</a>
+  <a href="#approach">Our Approach</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#location">Location</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <section class="section">
-    <h2>Directors & Officers</h2>
-    <p>Kyfork Aghobjian – CEO</p>
-    <p>Kyfork Aghobjian – CFO</p>
-    <p>Kyfork Aghobjian – Secretary</p>
-    <p>Kyfork Aghobjian – Director</p>
-    <p>Kyfork Aghobjian – Agent</p>
-  </section>
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a California professional legal corporation providing expert legal guidance with a commitment to ethics and client service.</p>
+</section>
 
-  <section class="section">
-    <h2>Our Visuals</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1630265927428-a62b061a5270?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 1">
-      <img src="https://images.unsplash.com/photo-1742253139334-b4d6f8e5dab3?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 2">
-      <img src="https://images.unsplash.com/photo-1589307904488-7d60ff29c975?q=80&w=2600&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 3">
-      <img src="https://images.unsplash.com/photo-1542269766-eed5ddd08721?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 4">
-    </div>
-  </section>
+<section id="practice">
+  <h2>Practice Areas</h2>
+  <p>Corporate Law • Real Estate • Contracts • Litigation • Regulatory Compliance</p>
+</section>
 
-  <footer>
-    &copy; 2025 Hagopjian Law, A Professional Corporation – All Rights Reserved
-  </footer>
+<section id="approach">
+  <h2>Our Approach</h2>
+  <p>We provide strategic legal counsel tailored to individual and business clients through transparent and proactive service.</p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1630265927428-a62b061a5270?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 1">
+    <img src="https://images.unsplash.com/photo-1742253139334-b4d6f8e5dab3?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 2">
+    <img src="https://images.unsplash.com/photo-1589307904488-7d60ff29c975?q=80&w=2600&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 3">
+    <img src="https://images.unsplash.com/photo-1542269766-eed5ddd08721?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0" alt="Office 4">
+  </div>
+</section>
+
+<section id="location">
+  <h2>Location</h2>
+  <p>We proudly operate in <strong>Sherman Oaks, CA</strong>, serving clients across California.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-box">
+    <p><strong>Email:</strong> <a href="mailto:aghobjian@lawprofecorporation.in.net">aghobjian@lawprofecorporation.in.net</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+14424409981">442-440-9981</a></p>
+    <p><strong>City:</strong> Sherman Oaks, CA</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Hagopjian Law, A Professional Corporation. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
